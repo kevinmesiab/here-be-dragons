@@ -28,14 +28,16 @@ Current Status
 |--------|--------------|---------|
 | Phenix | TBA | N/A |
 
+## Public Geo Related APIs 
 
-## Useful Complimentary Projects
-Projects created and maintained by others that you may find useful in augmenting your own geo-related projects.
 
-| Name | Description | Github |
-|--------|--------------|---------|
+|Name | Description | Source |
+|-----|-------------|---------|
+Flickr | The Flickr API is available for non-commercial use by outside developers. Commercial use is possible by prior arrangement.| https://www.flickr.com/services/api/ |   
+
 
 ## Data Sources
+Publicly available sources of geographic related data.
 
 * US Census Bureau
 https://www.census.gov/geo/maps-data/
@@ -44,8 +46,21 @@ https://www.census.gov/geo/maps-data/
 |-----|-------------|---------|
 TIGER | **T**opologically **I**ntegrated **G**eographic **E**ncoding and **R**eferencing project | https://www.census.gov/geo/maps-data/data/tiger.html|   
 
+## Specifications 
+
+Relevant industry standards and specifications
+
 * W3C Geolocation API Specification
 http://dev.w3.org/geo/api/spec-source.html#introduction
+
+---
+
+## Useful Complimentary Projects
+Projects created and maintained by others that you may find useful in augmenting your own geo-related projects.
+
+| Name | Description | Github |
+|--------|--------------|---------|
+| Leaflet | Ppen source JavaScript library for mobile-friendly interactive maps | https://github.com/Leaflet/Leaflet | 
 
 ---
 Dragons and her child projects are faithfully maintained by [Kevin Mesiab](https://github.com/kevinmesiab).
