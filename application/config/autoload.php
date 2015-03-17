@@ -77,12 +77,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 $autoload['packages'] = array();
-
-
+/*
+| -------------------------------------------------------------------
+|  Auto-load Models
+| -------------------------------------------------------------------
+| Prototype:
+|
+|	$autoload['model'] = array('first_model', 'second_model');
+|
+| You can also supply an alternative model name to be assigned
+| in the controller:
+|
+|	$autoload['model'] = array('first_model' => 'first');
+*/
+/*
+| -------------------------------------------------------------------
+|  Auto-load Models
+| -------------------------------------------------------------------
+| Prototype:
+|
+|	$autoload['model'] = array('first_model', 'second_model');
+|
+| You can also supply an alternative model name to be assigned
+| in the controller:
+|
+|	$autoload['model'] = array('first_model' => 'first');
+*/
 /*
 | -------------------------------------------------------------------
 |  Auto-load Libraries
-| -------------------------------------------------------------------
+| --
+
+-----------------------------------------------------------------
 | These are the classes located in the system/libraries folder
 | or in your application/libraries folder.
 |
@@ -96,7 +122,9 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array(
+    'encrypt'
+);
 
 
 /*
@@ -124,7 +152,16 @@ $autoload['drivers'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array(
+    'url',
+    'text',
+    'string',
+    'url', 
+    'string',
+    'security',
+    'cookie',
+    'file'
+);
 
 
 /*
@@ -140,7 +177,7 @@ $autoload['helper'] = array();
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('geo');
 
 
 /*
@@ -174,6 +211,15 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array();
+
+
+/*
+| -------------------------------------------------------------------
+|  Initalizes the spark package manager for CodeIgnitor
+| -------------------------------------------------------------------
+|
+|*/
+$autoload['sparks'] = array('twiggy/0.8.5');
 
 
 /* End of file autoload.php */

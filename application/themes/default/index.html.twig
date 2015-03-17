@@ -1,0 +1,53 @@
+{% extends _layout %}
+
+    {% block stylesheets %}
+        {{ parent() }}
+        <link href="/public/css/geo.css" rel="stylesheet"></link>
+    {% endblock %}
+
+
+    {% block page_header %}
+        Here be the dragons.
+    {% endblock %}
+
+    {% block sub_header_title %}
+       <span class="align-vertical">
+            <i class="fa fa-globe fa-2x"></i> {{ title }}
+       </span>
+    {% endblock %}
+    
+
+    {% block sub_header_content %}
+        <blockquote>
+            <p>
+                <i class="fa fa-quote-left"></i>
+                    "Here be the dragons" means dangerous or unexplored territories, in imitation 
+                     of the medieval practice of putting dragons, sea serpents and other mythological
+                     creatures in uncharted areas of maps.
+                <i class="fa fa-quote-right"></i>
+            </p>
+            <small>Author Unknown <cite title="The Lenox Globe">The Lenox Globe</cite></small>
+        </blockquote>
+         
+    {% endblock %}
+
+     
+    {% block content %}    
+    <div class="well well-sm translucent tl-2x">
+         <p class="text-warning">Abandon All Hope, Ye Who Enter Here...</p>
+        <p>Unfortunately the FireDragon project is not yet available for public use.</p>
+    </div>
+    
+    <div class="alert alert-success">
+        <i class="fa fa-github fa-5x pull-left"></i>
+        <h2>But all is not lost!</h2> 
+        <p>You can find us on GitHub and see what we're up to.  Maybe even follow along, if you're so inclined.</p>
+    </div>
+       
+         
+    {% endblock %}
+
+    
+    {%block footer %} 
+        {% block footer_nav %}{{ parent() }}{% endblock %} 
+    {% endblock %} 
