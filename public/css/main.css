@@ -1,0 +1,85 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+body {
+    background-color: black;
+}
+ 
+body>#bg {
+ 
+    opacity: .5;
+    filter:alpha(opacity=50);
+    
+    content: "&nbsp;";
+    
+    position:fixed;
+ 
+    top:0;
+    left:0;
+ 
+    width:100%;
+    height:100%;
+ 
+    background-color: black;
+    background-image:  url(/public/img/map.jpg);
+    background-size: 100% auto;
+    
+    z-index: -1;
+ 
+}
+
+  
+.container {
+    background-color: transparent;
+}
+
+.jumbotron {
+	opacity: .9;
+}
+
+header h1 {
+    color:white;
+}
+
+h3 {
+    color: white;
+}
+
+h3 small {
+    color: #eee;
+}
+
+.sites {
+    opacity: .9;
+}
+
+.translucent {
+    opacity: .9;
+    
+}.tl-1x {
+    
+    opacity: .8;
+    
+} .tl-2x {
+    
+    opacity: .7;
+    
+}.tl-3x {
+    
+    opacity: .6;
+} .tl-4x {
+    
+    opacity: .5;
+}.tl-5x {
+    
+    opacity: .4;
+}.tl-6x {
+    
+    opacity: .3;
+}
+
+.tl-children > * {
+    
+}

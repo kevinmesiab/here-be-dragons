@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ title }}</title>
+        
+        {% block resources %}
+        
+            {% block meta %}
+                <!-- open graph -->
+                {% include "_layouts/meta.html.twig" %}
+            {% endblock %}
+        
+            {% block javascript %}
+                {% include "_layouts/scripts.html.twig" %}
+            {% endblock %}
+            
+            {% block stylesheets %}
+                {% include "_layouts/styles.html.twig" %}
+            {% endblock %}
+            
+            
+        {% endblock %}
+    </head>
+    
+    <body>
+    
+        <div id="bg"></div>
+    
+        <div class="container">
+            
+            
+            <div class="row">
+                <div class="col-sm-12">
+                    <header >
+                        <h1>   
+                            {% block page_header %}
+                                An Idea Is A Spark <i class="fa fa-fire fa-2x"></i> <small>This is your kindling...</small>
+                            {% endblock %}
+                        </h1>
+                    </header>
+                </div>
+            </div>
+ 
+                            
+           
+            <div class="row">
+                <div class="col-sm-12">
+                
+                {% block page_sub_header %} 
+                    <div class="jumbotron box fade-in">
+                        
+                        <h1>
+                            {% block sub_header_title %}
+                                Default Site
+                            {% endblock %}
+                        </h1>
+                        
+                        {% block sub_header_content %}
+                            <div class="jumbotron">
+                                <blockquote>
+                                    <p>
+                                        <i class="fa fa-quote-left"></i>
+                                            "Here be the dragons" means dangerous or unexplored territories, in imitation 
+                                             of the medieval practice of putting dragons, sea serpents and other mythological
+                                             creatures in uncharted areas of maps.
+                                        <i class="fa fa-quote-right"></i>
+                                    </p>
+                                    <small>Author Unknown <cite title="The Lenox Globe">The Lenox Globe</cite></small>
+                                </blockquote>
+                            </div>
+                        {% endblock %}
+                        
+                    </div>
+                    
+                {% endblock %}
+                
+                
+                </div>
+            </div>        
+            
+            <div class="row">
+            	<div <div class="col-sm-12">
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+            
+            {%block footer %}
+                <div class="row">
+                    <div class="col-sm-12">  
+                        <footer>  
+                        
+                            {% block footer_nav %}  
+                                <nav>
+                                    <ul class="breadcrumb">
+                                        <li>© Copyright 2015 by <a href="mailto:dragonmaps+homepage@gmail.com">Kevin Mesiab</a></li>
+                                    </ul>
+                                </nav>
+                            {% endblock %}
+                            
+                        </footer>
+                    </div>
+                </div>
+            {% endblock %}
+            
+
+        </div>
+    </body>
+<html>

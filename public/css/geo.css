@@ -1,0 +1,16 @@
+.align-vertical * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Animations
+|--------------------------------------------------------------------------
+|
+| Various elements will perform animations like fade/fade out, dimming
+| and others.  Most of these will be done in CSS. Where the effect cannot
+| be achieved, jQuery wil be used.
+|
+*/
