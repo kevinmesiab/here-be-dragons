@@ -29,13 +29,13 @@ Current Status
 | Phenix | TBA | N/A |
 
 
-## Public Geo Related APIs 
+# Public Geo Related APIs 
 
 |Name | Description | Source |
 |-----|-------------|---------|
 Flickr | The Flickr API is available for non-commercial use by outside developers. Commercial use is possible by prior arrangement.| https://www.flickr.com/services/api/ |   
 
-## Data Sources
+# Data Sources
 Publicly available sources of geographic related data.
 
 
@@ -46,16 +46,16 @@ Publicly available sources of geographic related data.
 TIGER | **T**opologically **I**ntegrated **G**eographic **E**ncoding and **R**eferencing project | https://www.census.gov/geo/maps-data/data/tiger.html|   
 
 
-* Wikipedia*  https://www.wikipedia.org 
-Many of Wikipedia's articles are geo-tagged with their longitude and latitude.  You can use th public API to project this data onto 
-Latitude and longitude coordinates as given in various Wikipedia articles, somewhat analogous to how ISBN numbers are handled. 
-> - *[Wikipedia:WikiProject Council/Directory/Geographical](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Council/Directory/Geographical)* 
-WikiProject Geographical coordinates aims to better organize location information in articles containing a set of numbers that identifies location on and relative to the Earth. In particular, we aim to establish a standard for uniform handling of latitude 
+**Wikipedia** https://www.wikipedia.org 
+
+> Many of Wikipedia's articles are geo-tagged with their longitude and latitude.  You can use th public API to project this data > onto  latitude and longitude coordinates as given in various Wikipedia articles, somewhat analogous to how ISBN numbers are > > handle 
+
+*<small>Wikipedia Geographical Proeject** is managed by [Wikipedia:WikiProject> Council/Directory/Geographical](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Council/Directory/Geographical)</small>
+
 
 | Name  | Description | Source |
 |:-----:|-------------|--------|
-|Geographical | 
-|| [Project Page](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Geographical_coordinates) | 
+|Geographical | coordinates aims to better organize location information in articles containing a set of numbers that identifies location on and relative to the Earth. In particular, we aim to establish a standard for uniform handling of latitude and longitude coordinates as given in various Wikipedia articles, somewhat analogous to how ISBN numbers are handled.|   [Project Page](http://en.wikipedia.org/wiki/Wikipedia:WikiProject_Geographical_coordinates) | 
 |Notability (geographic features) | Notability on Wikipedia is an inclusion criterion based on the encyclopedic suitability of an article topic. Per Wikipedia's Five pillars, the encyclopedia also functions as a gazetteer; therefore, geographical features meeting Wikipedia's General notability guideline (GNG) are presumed, but not guaranteed, to be notable. | [source](http://en.wikipedia.org/wiki/Wikipedia:Notability_(geographic_features)) | 
 
 
